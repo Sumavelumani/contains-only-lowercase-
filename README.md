@@ -14,7 +14,8 @@ strncpy(maxSubstring, s,k);
 minSubstring[k]='\0';
 maxSubstring[k]='\0';
 for(inti=1;i<=len-k;i++){
-char substring[21];strncpy(substring,s+ik);
+char substring[21];
+strncpy(substring,s+ik);
 substring[k]='\0';
 if(strcmp(substring,minSubstring)<0){
 strcpy(minSubstring,substring);
