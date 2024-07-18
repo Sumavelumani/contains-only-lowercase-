@@ -34,4 +34,4 @@ scanf("%d",&k);
 findMinMaxSubsstring(s,k);
 return 0;
 }
-scanf("%d,&k
+scanf("%d,&k)
